@@ -31,5 +31,5 @@ spec:
   containers:
   - name: samplepod
     command: ["/bin/bash", "-c", "trap : TERM INT; sleep infinity & wait"]
-    image: alpine
+    image: ubuntu
 ---
