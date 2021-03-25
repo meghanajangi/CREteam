@@ -30,11 +30,6 @@ metadata:
 spec:
   containers:
   - name: samplepod
-<<<<<<< HEAD
     command: ["/bin/sh", "-c", "trap : TERM INT; sleep infinity & wait"]
     image: alpine
-=======
-    command: ["/bin/bash", "-c", "trap : TERM INT; sleep infinity & wait"]
-    image: ubuntu
->>>>>>> c876bf94e06e2ecc52341c306cc017d8d0cd7aed
 ---
